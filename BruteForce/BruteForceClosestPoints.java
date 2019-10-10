@@ -2,7 +2,7 @@ public class closest_pari_of_points {
 	public void main(String args[])
 	{
 		int p[][] = {{25,20},{7,13},{38,40},{42,13},{26,2},{44,33},{0,19},{38,21},{33,23},{16,48}};
-		BruteFourceClosestPoints(p);
+		BruteForceClosestPoints(p);
 	}
 	/* 
 	 * 蛮力法求平面中距离最近的两点
@@ -12,7 +12,7 @@ public class closest_pari_of_points {
 	 * 输出：两个最近点的距离
 	 * 
 	 */
-	public double BruteFourceClosestPoints(int[][] p)
+	public double BruteForceClosestPoints(int[][] p)
 	{
 		double dist = 0;
 		double d = Double.POSITIVE_INFINITY;
